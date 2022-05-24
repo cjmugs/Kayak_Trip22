@@ -35,4 +35,4 @@ def Crew():
 # Show Program
 table = [['First Name', 'Years on the Trip'], ['Chris', '11'], ['Matt', '11'], ['Steve', '8'],
          ['Scott', '8'], ['Ben', '6'], ['Robbie', '5']]
-print(tabulate(table))
+print(tabulate(table, headers='firstrow'))
