@@ -28,6 +28,8 @@ def show_program():
         print('\n')
         print(tabulate(table, headers='firstrow'))
         print('\n')
+        print('Start From ' + Launch_Site)
+        print('Ended in ' + End_Site)
         print('Moving Average Speed ' + str(Moving_Average))
         print('Max Speed ' + str(Max_Speed))
         print('Total Distance ' + str(Trip_Odometer))
