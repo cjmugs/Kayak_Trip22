@@ -21,9 +21,15 @@ End_Site = "Port of Grafton, Grafton, IL"
 # Finished out the Illinois River this year #
 
 # Crew #
-table = [['First Name', 'Years on the Trip'], ['Chris', '11'], ['Matt', '11'], ['Steve', '8'],
+def show_program():
+    table = [['First Name', 'Years on the Trip'], ['Chris', '11'], ['Matt', '11'], ['Steve', '8'],
          ['Scott', '8'], ['Ben', '6'], ['Robbie', '5']]
-
-print(tabulate(table, headers='firstrow'))
-print('\n')
-print('Moving Average Speed ' + str(Moving_Average))
+    while True:
+        print('\n')
+        print(tabulate(table, headers='firstrow'))
+        print('\n')
+        print('Moving Average Speed ' + str(Moving_Average))
+        print('Max Speed ' + str(Max_Speed))
+        print('Total Distance ' + str(Trip_Odometer))
+        break
+show_program()
