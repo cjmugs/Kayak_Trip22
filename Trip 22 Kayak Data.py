@@ -3,7 +3,7 @@ from tabulate import tabulate
 Elevation = 420
 Trip_Odometer = 55.22
 Max_Speed = 6.4
-Moving_Average = (3.1 + 3.3 + 3.5) / 3
+Moving_Average = (3.1 + 3.3 + 3.8) / 3
 Overall_Average = (2.8 + 2.5 + 2.6) / 3
 
 # Trip Info #
