@@ -22,8 +22,8 @@ End_Site = "Port of Grafton, Grafton, IL"
 
 # Crew #
 def show_program():
-    table = [['First Name', 'Years on the Trip'], ['Chris', '11'], ['Matt', '11'], ['Steve', '8'],
-         ['Scott', '8'], ['Ben', '6'], ['Robbie', '5']]
+    table = [['First Name', 'Last Name', 'Years on the Trip'], ['Chris', 'Mugavero', '11'], ['Matt', 'Shanks', '11'], ['Steve', 'Mugavero', '8'],
+         ['Scott', 'Ustas', '8'], ['Ben', 'Chin', '6'], ['Robbie', 'Sliwinski', '5']]
     while True:
         print('\n')
         print(tabulate(table, headers='firstrow'))
