@@ -1,5 +1,4 @@
 from tabulate import tabulate
-
 # Data from GPS Garmin #
 Elevation = 420
 Elapse_Time = 6.29
@@ -24,15 +23,6 @@ End_Site = "Port of Grafton, Grafton, IL"
 # Finished out the Illinois River this year #
 
 # Crew #
-def Crew():
-    Captian_Member = {'Name':'Chris', "Years": 11}
-    Captian2_Member = {'Name':'Matt', "Years": 11}  
-    Crew_Member = {'Name':'Steve', "Years": 8}
-    Crew2_Member = {'Name':'Scott', "Years": 8}
-    Crew3_Member = {'Name':'Ben', "Years": 5}
-    Crew4_Member = {'Name':'Robbie', "Years": 5}
-
-# Show Program
 table = [['First Name', 'Years on the Trip'], ['Chris', '11'], ['Matt', '11'], ['Steve', '8'],
          ['Scott', '8'], ['Ben', '6'], ['Robbie', '5']]
 print(tabulate(table, headers='firstrow'))
