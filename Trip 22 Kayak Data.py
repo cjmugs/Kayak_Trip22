@@ -1,3 +1,5 @@
+from tabulate import tabulate
+
 # Data from GPS Garmin #
 Elevation = 420
 Elapse_Time = 6.29
@@ -31,3 +33,6 @@ def Crew():
     Crew4_Member = {'Name':'Robbie', "Years": 5}
 
 # Show Program
+table = [['First Name', 'Years on the Trip'], ['Chris', '11'], ['Matt', '11'], ['Steve', '8'],
+         ['Scott', '8'], ['Ben', '6'], ['Robbie', '5']]
+print(tabulate(table))
