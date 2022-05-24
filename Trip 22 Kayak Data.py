@@ -6,7 +6,7 @@ Stopped_Time = 42.38
 Trip_Odometer = 20.22
 Max_Speed = 6.4
 Moving_Average = 3.1
-Overall_Average = 2.8 + 2.5
+Overall_Average = (2.8 + 2.5 + 2.6) / 3
 
 # Trip Info #
 Launch_Site = "Boat Dock Road, Florence, IL"
@@ -25,4 +25,7 @@ End_Site = "Port of Grafton, Grafton, IL"
 # Crew #
 table = [['First Name', 'Years on the Trip'], ['Chris', '11'], ['Matt', '11'], ['Steve', '8'],
          ['Scott', '8'], ['Ben', '6'], ['Robbie', '5']]
+
 print(tabulate(table, headers='firstrow'))
+print('\n')
+print('Overall Average Speed ' + str(Overall_Average))
