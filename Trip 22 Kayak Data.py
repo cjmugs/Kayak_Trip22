@@ -5,7 +5,7 @@ Elapse_Time = 6.29
 Stopped_Time = 42.38
 Trip_Odometer = 20.22
 Max_Speed = 6.4
-Moving_Average = 3.1
+Moving_Average = (3.1 + 3.3 + 3.5) / 3
 Overall_Average = (2.8 + 2.5 + 2.6) / 3
 
 # Trip Info #
@@ -28,4 +28,4 @@ table = [['First Name', 'Years on the Trip'], ['Chris', '11'], ['Matt', '11'], [
 
 print(tabulate(table, headers='firstrow'))
 print('\n')
-print('Overall Average Speed ' + str(Overall_Average))
+print('Moving Average Speed ' + str(Moving_Average))
